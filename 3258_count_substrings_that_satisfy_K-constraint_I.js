@@ -16,7 +16,7 @@ function countKConstraintSubstrings(s, k) {
 	}
 	return substrings;
 }
-// Input: s = "10101", k = 1
+// Input: s = "10101", k = 1;
 // Output: 12
 // Explanation:
 // Every substring of s except the substrings "1010", "10101", and "0101" satisfies the k-constraint.
