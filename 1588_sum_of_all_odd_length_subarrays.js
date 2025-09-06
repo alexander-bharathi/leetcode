@@ -13,4 +13,4 @@ var sumOddLengthSubarrays = function (arr) {
     total += arr[i] * oddCount;
   }
   return total;
-};
+}; 
