@@ -17,5 +17,6 @@ var containsNearbyDuplicate = function (nums, k) {
   }
   return false;
 };
+
 // Input: nums = [1, 2, 3, 1], k = 3
 // Output: true
