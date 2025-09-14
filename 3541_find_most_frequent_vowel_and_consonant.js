@@ -21,7 +21,6 @@ var maxFreqSum = function (s) {
   }
   return vMax + cMax;
 };
-
 // Input: s = "successes"
 // Output: 6
 // Explanation:
