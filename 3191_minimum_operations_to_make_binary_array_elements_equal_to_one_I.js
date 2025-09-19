@@ -16,7 +16,6 @@ var minOperations = function (nums) {
   }
   return (nums[n - 2] === 0 || nums[n - 1] === 0) ? -1 : ops;
 };
-
 // Input: nums = [0, 1, 1, 1, 0, 0]
 // Output: 3
 // Explanation:
