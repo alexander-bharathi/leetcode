@@ -19,6 +19,7 @@ var countCompleteSubarrays = function(nums) {
     }
     return count;
 };
+
 // Example 1:
 // Input: nums = [1,3,1,2,2]
 // Output: 4
