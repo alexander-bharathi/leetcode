@@ -2,6 +2,7 @@
  * @param {number} numRows
  * @return {number[][]}
  */
+
 var generate = function (numRows) {
   if (numRows === 0) return [];
   let result = [[1]];
