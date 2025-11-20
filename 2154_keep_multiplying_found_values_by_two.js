@@ -12,6 +12,7 @@ var findFinalValue = function (nums, original) {
 };
 // Input: nums = [5, 3, 6, 1, 12], original = 3
 // Output: 24
+
 // Explanation:
 // - 3 is found in nums. 3 is multiplied by 2 to obtain 6.
 // - 6 is found in nums. 6 is multiplied by 2 to obtain 12.
