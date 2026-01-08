@@ -8,7 +8,6 @@ var nextGreaterElement = function (nums1, nums2) {
     const nextGreater = new Map();
     for (let num of nums2) {
         while (stack.length && num > stack[stack.length - 1]) {
-            console.log(stack,'d');
             nextGreater.set(stack.pop(), num);
         }
         stack.push(num);
